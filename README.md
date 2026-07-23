@@ -1,5 +1,7 @@
 # Predicting House Occupancy in a Smart Home Environment
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makar-evdokimov/smart_home_occupancy_prediction/blob/main/main.ipynb)
+
 A multi-model agent that predicts hourly probabilities of a home being occupied for the next 24 hours, based solely on energy consumption data from smart electricity meters.
 
 ## Abstract
@@ -22,7 +24,9 @@ With rising global temperatures and weather events getting more extreme everywhe
 
 ## Running it
 
-The notebook is formatted to be opened in Colab, where large pieces of code can be scrolled/collapsed.
+The notebook is formatted to be opened in Colab (use the badge above), where large pieces of code can be scrolled/collapsed.
 
 To run it, place the `gp_features/` folder in your working directory alongside the raw dataset files, which are available via this Google Drive folder:
 https://drive.google.com/drive/folders/1Or4cOauI3TEHEVMr2xilQ7Uk1A63Dsfr?usp=sharing
+
+Note: `main.ipynb` also contains a few SHAP force-plot visualizations, which rely on embedded JavaScript. GitHub strips notebook JavaScript for security, so those show as "Visualization omitted" when browsing the notebook here — open it in Colab or a trusted local Jupyter session to view them.
